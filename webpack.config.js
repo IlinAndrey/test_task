@@ -38,11 +38,11 @@ module.exports = {
     
       devServer: {
         static: {
-          directory: path.join(__dirname, 'dist'), // Каталог для статики
+          directory: path.join(__dirname, 'dist'), 
         },
         open: true,
-        port: 3000, // Автоматически открывать браузер
+        port: 3000, 
       },
     
-      mode: 'development', // Режим сборки
+      mode: 'development', 
 }
