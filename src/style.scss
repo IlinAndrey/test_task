@@ -269,6 +269,13 @@ body, html {
     font-style: normal;
     font-weight: 500;
     line-height: 128.023%;
+    cursor: pointer;
+}
+
+.dollars:hover{
+  color: #5eff7b;
+  transition: opacity 0.2s ease-in-out;
+  cursor: pointer;
 }
 
 .cost{
@@ -287,6 +294,13 @@ body, html {
     font-style: normal;
     font-weight: 400;
     line-height: normal; 
+    cursor: pointer;
+}
+
+.month:hover{
+  color: #5eff7b;
+  transition: opacity 0.2s ease-in-out;
+  cursor: pointer;
 }
 
 .describe{
@@ -413,7 +427,7 @@ body, html {
     font-style: normal;
     font-weight: 500;
     line-height: 128.023%;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .next{
